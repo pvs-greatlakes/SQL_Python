@@ -1,0 +1,33 @@
+SQL_Test at 21:10:39.txt
+== SET 1 ==
+
+A) Query involving a single database table
+
+Q1) Give the count of female employees
+
+Female employees count : 22
+The WHERE clause is used to compare the given value with the field value available in the database table.
+The COUNT() function returns the number of records returned by a SELECT query.
+
+
+
+Q2) Give the count of employees who joined 5 years ago (i.e. experience in the company is 5 years or more) 
+
+Count of Employees who joined 5 years ago : 44
+
+The DATE_SUB() function subtracts a time / date interval from a date and then returns the date.
+
+
+B) Query involving two database tables
+
+Q4) Give the count, department ID and department name of the employees drawing Less than the average salary
+
+Count of employees drawing less salary than average : 6 Dept ID : 1 Name : HR & Admin
+
+Count of employees drawing less salary than average : 4 Dept ID : 2 Name : Finance & Accounts
+
+Count of employees drawing less salary than average : 8 Dept ID : 3 Name : Production
+
+Count of employees drawing less salary than average : 5 Dept ID : 4 Name : Sales & Marketing
+
+Count of employees drawing less salary than average : 1 Dept ID : 5 Name : Purchase
